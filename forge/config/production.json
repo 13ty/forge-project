@@ -1,0 +1,27 @@
+{
+  "app": {
+    "name": "Forge Platform",
+    "version": "0.3.0"
+  },
+  "server": {
+    "port": 443,
+    "host": "forge.yourdomain.com"
+  },
+  "database": {
+    "connectionLimit": 50,
+    "connectTimeout": 5000
+  },
+  "security": {
+    "saltRounds": 12,
+    "tokenExpiration": "30d"
+  },
+  "features": {
+    "userRegistration": true,
+    "projectCreation": true,
+    "aiAssistance": true
+  },
+  "logging": {
+    "level": "error",
+    "directory": "/var/log/forge-platform"
+  }
+}
