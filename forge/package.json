@@ -1,28 +1,20 @@
 {
     "name": "forge-platform",
-    "version": "0.3.0",
+    "version": "0.1.0",
     "description": "Collaborative Maker's Toolkit",
     "main": "src/index.js",
     "scripts": {
       "start": "node src/index.js",
       "dev": "nodemon src/index.js",
-      "demo": "node tests/platform-demo.js",
-      "test": "jest",
-      "setup": "npm install && mongod"
+      "test": "jest"
     },
     "dependencies": {
-      "axios": "^0.24.0",
-      "bcrypt": "^5.0.1",
-      "dotenv": "^10.0.0",
       "express": "^4.17.1",
-      "jsonwebtoken": "^8.5.1",
-      "mongoose": "^6.1.2",
       "socket.io": "^4.4.1",
-      "uuid": "^8.3.2"
+      "uuid": "^8.3.2",
+      "marked": "^4.0.0"
     },
     "devDependencies": {
-      "jest": "^27.4.7",
-      "nodemon": "^2.0.15",
-      "socket.io-client": "^4.4.1"
+      shwhat"jest": "^27.4.7"
     }
   }
